@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="managerScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="850.0" style="-fx-background-color: #f5fffa;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Manager">
+   <children>
+      <Label layoutX="424.0" layoutY="46.0" text="Password Records " textFill="#32327e">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="website" layoutX="44.0" layoutY="52.0" promptText="Website" style="-fx-border-color: #48d1cc;" />
+      <TextField fx:id="emailInput" layoutX="44.0" layoutY="102.0" promptText="Email" style="-fx-border-color: #48d1cc;" />
+      <TextField fx:id="username" layoutX="44.0" layoutY="153.0" promptText="Username" style="-fx-border-color: #48d1cc;" />
+      <TextField fx:id="password" layoutX="44.0" layoutY="204.0" promptText="Password" style="-fx-border-color: #48d1cc;" />
+      <TextArea fx:id="notes" layoutX="44.0" layoutY="256.0" prefHeight="154.0" prefWidth="150.0" promptText="Add notes here" style="-fx-border-color: #48d1cc;" />
+      <Button layoutX="24.0" layoutY="435.0" mnemonicParsing="false" onAction="#add" style="-fx-background-color: #e41870;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="exitButton" layoutX="491.0" layoutY="433.0" mnemonicParsing="false" onAction="#logOut" prefHeight="30.0" prefWidth="76.0" style="-fx-background-color: #48d1cc;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TableView fx:id="pmTable" editable="true" layoutX="235.0" layoutY="114.0" onMouseClicked="#selectRow" prefHeight="294.0" prefWidth="588.0" style="-fx-border-color: #48d1cc;">
+        <columns>
+          <TableColumn fx:id="IDColumn" prefWidth="53.59996032714844" text="ID" />
+          <TableColumn fx:id="websiteColumn" prefWidth="91.2000732421875" text="Website" />
+            <TableColumn fx:id="emailColumn" prefWidth="105.60003662109375" text="Email" />
+            <TableColumn fx:id="usernameColumn" prefWidth="100.800048828125" text="Username" />
+            <TableColumn fx:id="passwordColumn" prefWidth="108.79986572265625" text="Password" />
+            <TableColumn fx:id="notesColumn" prefWidth="127.2000732421875" text="Notes" />
+        </columns>
+      </TableView>
+      <TextField fx:id="ID" layoutX="667.0" layoutY="419.0" promptText="ID" style="-fx-border-color: #48d1cc;" visible="false" />
+      <Button layoutX="86.0" layoutY="435.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: #e41870;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="160.0" layoutY="435.0" mnemonicParsing="false" onAction="#refresh" style="-fx-background-color: #e41870;" text="Refresh" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
