@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/121978043/220405586-fc457df4-2df4-4512
 
 For installation and usage:
 
-    1. Download [XAMPP](https://www.apachefriends.org/download.html) 
+    1. Download XAMPP(https://www.apachefriends.org/download.html) 
     2. To set up XAMPP, select preferred components (I used MySQL and phpMyAdmin).
     3. In the XAMPP control panel, click 'Start' and 'Admin' for selected components.
     4. Create appropriate database tables in MySQL to manage data for sign up page, login page and manage passwords page.
