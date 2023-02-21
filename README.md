@@ -19,10 +19,8 @@ This is a JDBC project which allows users to sign up, log-in and manage password
     Frontend Frameworks and Tools: JavaFX, Scene Builder
     
 ## Demo
-    
-    https://user-images.githubusercontent.com/121978043/220403924-52eeffb0-f78f-43e4-976b-f5179350d404.mp4
-    
-    https://user-images.githubusercontent.com/121978043/220404400-3461efc5-31c9-479a-8d5e-7356f2b1282c.mp4
+
+https://user-images.githubusercontent.com/121978043/220405586-fc457df4-2df4-4512-90fb-17bac2398388.mp4    
     
     
 ## Requirements
