@@ -22,6 +22,9 @@ This is a JDBC project which allows users to sign up, log-in and manage password
     
     https://user-images.githubusercontent.com/121978043/220403924-52eeffb0-f78f-43e4-976b-f5179350d404.mp4
     
+    https://user-images.githubusercontent.com/121978043/220404400-3461efc5-31c9-479a-8d5e-7356f2b1282c.mp4
+    
+    
 ## Requirements
 
 For installation and usage:
